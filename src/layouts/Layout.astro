@@ -15,7 +15,7 @@ import Header from "../components/layout/Header.astro";
     <title>TypeCode Studio | Guanacaste</title>
   </head>
 
-  <body class="dark:bg-gray-900">
+  <body class="dark:bg-gray-900 transition-all duration-500 ease-in">
     <Header />
     <slot />
     <Footer />
@@ -23,5 +23,6 @@ import Header from "../components/layout/Header.astro";
 </html>
 
 <script type="module" src="/theme.js"></script>
+<script type="module" src="/menu.js"></script>
 <script type="module" src="/script.js"></script>
 <script type="module" src="/serviceWorker.js"></script>
